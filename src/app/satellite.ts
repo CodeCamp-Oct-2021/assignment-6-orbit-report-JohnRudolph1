@@ -15,9 +15,14 @@ export class Satellite {
    }
 	
 	isSpaceDebris(): boolean {
-		return true;
-   }
-
+		
+		let warning = 'Space Debris'
+		return this.type === warning
+	}
 }
 
+
 // TODO 3a: fix isSpaceDebris check
+// 
+
+
